@@ -2,8 +2,7 @@
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
 
-.raise:hover,
-.raise:focus {
+.raise:hover {
   box-shadow: 0 0.5em 0.5em -0.4em rgba(52, 52, 52, 0.63);
   transform: translateY(-0.25em);
 }
