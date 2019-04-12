@@ -1,0 +1,39 @@
+
+body {
+  font-family: $book, serif;
+  font-size: 1rem;
+  background: $background;
+  color: $text-color;
+}
+
+h1, h2, h3 {
+  line-height: 1;
+  font-family: $medium;
+}
+
+
+p {
+  font-size: 1rem;
+  line-height: 1.85;
+}
+
+.light {
+  font-family: $light;
+}
+
+.medium {
+  font-family: $medium;
+}
+
+.x-lite {
+  font-family: $extra-light;
+}
+
+.bold {
+  font-family: $bold;
+}
+
+.book {
+  font-family: $book;
+}
+

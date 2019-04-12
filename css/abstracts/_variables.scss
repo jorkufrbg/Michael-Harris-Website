@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+//Fonts
+$light: 'Gotham-Light';
+$medium: 'Gotham-Medium';
+$extra-light: 'Gotham-ExtraLight';
+$bold: 'Gotham-Bold';
+$book: 'Gotham-Book';
+$white: #ffffff;
+
+//Font Color
+$text-color: #111111 !default;
+$black: #000;
+$grey-border: #a89f99;
+$footer: #3a3a3a;
+
+//other
+$background: #fafafa;
+$button: #343434;
+
+/// Container's maximum width
+$max-width: 945px !default;
+
+$breakpoints: (
+        'small': 320px,
+        'medium': 768px,
+        'large': 1024px,
+) !default;
+
+$base-url: '/assets/' !default;
