@@ -133,6 +133,33 @@ main {
   display: block;
 }
 
+.col-3 {
+  width: 33.3%;
+  float: left;
+  display: block;
+}
+
+.col-4 {
+  width: 34%;
+  float: left;
+  display: block;
+}
+
+
+.col-6 {
+  width: 66%;
+  float: left;
+  display: block;
+}
+
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.

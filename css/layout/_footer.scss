@@ -6,24 +6,9 @@ footer {
   @include max-width;
   text-align: center;
 
-  .socials {
-    a {
-      padding: 0 15px;
-    }
-
-    img {
-      height: 30px;
-    }
-
-    .mail {
-      height: 35px;
-    }
-
-  }
-
   .inquiry {
     a {
-      padding: 17px 0;
+      padding: 17px 30px;
       margin: 20px 0;
       display: inline-block;
       border-top: 1px solid rgba(52, 52, 52, 0.63);
@@ -32,5 +17,25 @@ footer {
   }
 
   .copyright {
+    margin: 55px auto 20px auto;
+
+    p {
+      font-size: 10px;
+    }
   }
+}
+
+.socials {
+  a {
+    padding: 0 15px;
+  }
+
+  img {
+    height: 30px;
+  }
+
+  .mail {
+    height: 35px;
+  }
+
 }

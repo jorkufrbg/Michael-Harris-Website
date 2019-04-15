@@ -35,13 +35,19 @@ header.main {
   width: 100%;
   z-index: 100;
   @include max-width;
+  margin: 40px auto 35px auto;
 
   > a {
 
     h1 {
       color: $text-color;
       display: inline-block;
+      margin: 0;
+      text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.11);
 
+      .light {
+        margin: 0 10px;
+      }
     }
   }
 
@@ -50,7 +56,7 @@ header.main {
 .header-right {
   position: relative; //absolute
   float: right;
-  padding-top: 20px;
+  //padding-top: 20px;
 }
 
 .menu-mobile-btn.burger {

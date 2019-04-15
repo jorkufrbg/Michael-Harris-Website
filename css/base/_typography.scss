@@ -9,6 +9,7 @@ body {
 h1, h2, h3 {
   line-height: 1;
   font-family: $medium;
+  font-weight: 400;
 }
 
 
@@ -19,22 +20,27 @@ p {
 
 .light {
   font-family: $light;
+  font-weight: 400;
 }
 
 .medium {
   font-family: $medium;
+  font-weight: 400;
 }
 
 .x-lite {
   font-family: $extra-light;
+  font-weight: 400;
 }
 
 .bold {
   font-family: $bold;
+  font-weight: 400;
 }
 
 .book {
   font-family: $book;
+  font-weight: 400;
 }
 
 

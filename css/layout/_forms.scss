@@ -1,0 +1,107 @@
+.inquery-popup {
+  position: relative;
+  background: white;
+  background-position: -150px 155px;
+  background-repeat: no-repeat;
+  color: $black;
+  padding: 30px 30px 15px 30px;
+  width: auto;
+  max-width: 600px;
+  margin: 20px auto;
+
+  h2 {
+    margin-bottom: 25px;
+    color: black;
+    font-family: $book;
+  }
+
+  form {
+    margin: 0 auto;
+
+    input, textarea {
+      display: block;
+      padding: 10px;
+      width: 100%;
+      border: 1px solid $white;
+      opacity: 0.85;
+
+      &:focus {
+        opacity: 1;
+      }
+    }
+
+    .textarea {
+      margin-bottom: 10px;
+    }
+
+  }
+}
+
+.mfp-close-btn-in .mfp-close {
+  color: $text-color !important;
+
+  &:hover, &:focus, &:active {
+    color: $black !important;
+  }
+}
+
+.form-item {
+  margin-bottom: 25px;
+}
+
+.contact-form {
+  max-width: 420px;
+  margin: 0 auto;
+
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  background-color: $black;
+  border: 1px solid $black;
+  color: $white;
+  min-height: 55px;
+  margin-bottom: 22px;
+  padding: 0 15px;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+textarea {
+  padding-top: 17px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: $white;
+  text-align: center;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: $white;
+  text-align: center;
+  opacity: 1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: $white;
+  text-align: center;
+  opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $white;
+  text-align: center;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: $white;
+  text-align: center;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+  color: $white;
+  text-align: center;
+}
