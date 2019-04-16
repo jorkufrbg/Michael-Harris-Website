@@ -1,5 +1,6 @@
 .contacts {
   margin: 45px auto 55px auto;
+  position: relative;
 
   h2 {
     font-family: $light;
@@ -39,16 +40,42 @@
 @media all and (max-width: 800px) {
   .contacts {
     .col-2 {
-      width: 100%;
 
       > img {
-        margin: 0 auto 60px auto;
         display: block;
+        padding-right: 20px;
+      }
+
+      &.center {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        input[type=submit] {
+          margin-bottom: 0;
+        }
       }
     }
 
     .socials {
       display: none;
+    }
+  }
+}
+
+@media all and (max-width: 620px) {
+  .contacts {
+    .col-2 {
+      width: 100%;
+
+      img {
+        margin: 0 auto 60px auto;
+        padding: 0;
+      }
+
+      &.center {
+        position: relative;
+      }
     }
   }
 }

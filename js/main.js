@@ -29,7 +29,7 @@ MenuMobile.prototype.expand = function () {
         right: 0,
         display: 'block',
         opacity: [1, "easeInCubic", 0]
-    }, 250);
+    }, 300);
 };
 MenuMobile.prototype.collapse = function () {
     var self = this;
@@ -37,7 +37,7 @@ MenuMobile.prototype.collapse = function () {
         right: -100,
         opacity: [0, "easeOutCubic", 1],
         display: 'none'
-    }, 200);
+    }, 250);
 
 };
 

@@ -22,10 +22,18 @@ nav.main {
 
     }
 
-    img {
-      display: inline-block;
-      vertical-align: middle;
-      line-height: 35px;
+    &:hover {
+
+
+      a.active {
+        background-color: unset;
+        color: unset;
+        box-shadow: none;
+
+        &:hover {
+          @include button;
+        }
+      }
     }
   }
 }
