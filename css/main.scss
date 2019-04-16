@@ -7,7 +7,7 @@
  */
 // 1. Configuration and helpers
 @import 'abstracts/variables',
-'abstracts/functions',
+'abstracts/animations',
 'abstracts/mixins';
 // 2. Vendors
 @import 'vendors/normalize';
@@ -27,3 +27,5 @@
 @import "layout/forms";
 @import "pages/me";
 @import "pages/writing";
+@import "pages/inspiration";
+@import "pages/contacts";

@@ -4,7 +4,7 @@
   background-position: -150px 155px;
   background-repeat: no-repeat;
   color: $black;
-  padding: 30px 30px 15px 30px;
+  padding: 22px 22px 0 22px;
   width: auto;
   max-width: 600px;
   margin: 20px auto;
@@ -23,10 +23,10 @@
       padding: 10px;
       width: 100%;
       border: 1px solid $white;
-      opacity: 0.85;
+      opacity: 1;
 
       &:focus {
-        opacity: 1;
+        opacity: 0.85;
       }
     }
 
@@ -46,13 +46,12 @@
 }
 
 .form-item {
-  margin-bottom: 25px;
+  margin-bottom: 22px;
 }
 
 .contact-form {
-  max-width: 420px;
-  margin: 0 auto;
-
+  max-width: 435px;
+  margin: 90px auto 0 auto
 }
 
 input, textarea {
@@ -77,31 +76,43 @@ textarea {
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   color: $white;
   text-align: center;
+  font-family: $light;
+  font-weight: 400;
 }
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
   color: $white;
   text-align: center;
   opacity: 1;
+  font-family: $light;
+  font-weight: 400;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
   color: $white;
   text-align: center;
   opacity: 1;
+  font-family: $light;
+  font-weight: 400;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: $white;
   text-align: center;
+  font-family: $light;
+  font-weight: 400;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: $white;
   text-align: center;
+  font-family: $light;
+  font-weight: 400;
 }
 
 ::placeholder { /* Most modern browsers support this now. */
   color: $white;
   text-align: center;
+  font-family: $light;
+  font-weight: 400;
 }

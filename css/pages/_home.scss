@@ -5,3 +5,9 @@
 .home {
   margin-bottom: 40px;
 }
+
+@media all and (max-width: 480px) {
+  .home {
+    margin-bottom: 20px;
+  }
+}

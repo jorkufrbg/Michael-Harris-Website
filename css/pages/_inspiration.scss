@@ -1,0 +1,49 @@
+.inspirations {
+  margin-bottom: 170px;
+
+  img {
+    margin-bottom: 50px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 14px;
+    font-family: $medium;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 25px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media all and (max-width: 768px) {
+  .inspirations {
+    .col-3 {
+      h4 {
+        font-size: 16px;
+      }
+
+      a {
+        font-size: 12px;
+        word-wrap: break-word
+      }
+    }
+  }
+}
+
+@media all and (max-width: 660px) {
+  .inspirations {
+    margin-bottom: 50px;
+
+    .col-3 {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
